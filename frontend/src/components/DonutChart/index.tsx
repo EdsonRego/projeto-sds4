@@ -5,7 +5,7 @@ import { BASE_URL } from 'utils/requests';
 
 type ChartData = {
     labels: string[];
-    series: Number[];
+    series: number[];
 }
 
 const DonutChart = () => {
